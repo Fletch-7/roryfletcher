@@ -4,17 +4,20 @@ class Navbar extends React.Component{
 
 render() {
   return (
-    <header>
-    <nav>
-      <ul className="nav-menu">
-        <li><a href="#about">about</a></li>
-        <li><a href="#projects">projects</a></li>
-        <li><a href="#experience">experience</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
+    <nav className="navbar has-background-black has-text-white is-transparent">
+    <div className="container">
+      <div className="navbar-start">
+        <a className="navbar-item"  href="#hero">Rory Fletcher </a>
+      </div>
+      <div className="navbar-end">
+        <a className="navbar-item " href="#about">about</a>
+        <a className="navbar-item"  href="#projects">projects</a>
+        <a className="navbar-item"  href="#experience">experience</a>
+        <a className="navbar-item"  href="#contact">contact</a>
+        </div>
+    </div>
     </nav>
-    </header>
-  )
+  ) 
 }
 
 
