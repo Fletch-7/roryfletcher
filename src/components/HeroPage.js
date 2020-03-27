@@ -5,7 +5,7 @@ class HeroPage extends React.Component {
   
   render() {
     return (
-      <section className="section" id="hero">
+      <section className="Section" id="Hero">
         <div className="Hero">
         <h1 className="name">Hi, my name is Rory.</h1>
     <p className="name">
@@ -14,11 +14,11 @@ class HeroPage extends React.Component {
     loop={Infinity}
     wrapper="b"
     steps={[
-      'Junior Full-Stack Developer',
+      'Full-Stack Developer',
       1000,
       'Foodie',
       1000,
-      'runner',
+      'Runner',
       1000,
       'Linguist',
       1000

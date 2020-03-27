@@ -10615,6 +10615,11 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vanta@^0.5.12:
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/vanta/-/vanta-0.5.12.tgz#669015ff6b7ba1a9ad90bbcf64d84ef0b2820e99"
+  integrity sha512-FAyarc7XwBytdYtqnG7I1liZs3gpAKJFi8qnAKw9LAPcjmsPtf+w0B+0KvMkAQl/KhYCOX/HZphtjOCLrx7rzA==
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
