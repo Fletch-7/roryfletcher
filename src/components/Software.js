@@ -6,57 +6,57 @@ render() {
   return (
 <section className="Section" id="Software"> 
   <div className="container-software">
-  <ul classname="software-icons">
-    <li class="cell"> 
-    <i class="fab fa-js-square"></i>
+  <ul className="software-icons">
+    <li className="cell"> 
+    <i className="fab fa-js-square"></i>
     <span>JavaScript</span></li>
 
-    <li class="cell"> 
-    <i class="fab fa-html5"></i>
+    <li className="cell"> 
+    <i className="fab fa-html5"></i>
     <span>HTML5</span></li>
 
-    <li class="cell"> 
-    <i class="fab fa-css3-alt"></i>
+    <li className="cell"> 
+    <i className="fab fa-css3-alt"></i>
     <span>CSS3</span></li>
 
-    <li class="cell"> 
-    <i class="fab fa-react"></i>
+    <li className="cell"> 
+    <i className="fab fa-react"></i>
     <span>ReactJS</span></li>
 
-    <li class="cell"> 
-    <i class="fab fa-node-js"></i>
+    <li className="cell"> 
+    <i className="fab fa-node-js"></i>
     <span>NodeJS</span></li>
 
-    <li class="cell"> 
-    <i class="Bulma"></i>
+    <li className="cell"> 
+    <i className="Bulma"></i>
     <span>Bulma</span></li>
 
-    <li class="cell"> 
-    <i class="devicon-express-original"></i>
+    <li className="cell"> 
+    <i className="devicon-express-original"></i>
     <span>Express</span></li>
 
-    <li class="cell"> 
-    <i class="devicon-mongodb-plain"></i>
+    <li className="cell"> 
+    <i className="devicon-mongodb-plain"></i>
     <span>MongoDB</span></li>
 
-    <li class="cell"> 
-    <i class="fab fa-github-square"></i>
+    <li className="cell"> 
+    <i className="fab fa-github-square"></i>
     <span>GitHub</span></li>
 
-    <li class="cell"> 
-    <i class="devicon-slack-plain"></i>
-    <span>GitHub</span></li>
+    <li className="cell"> 
+    <i className="devicon-slack-plain"></i>
+    <span>Slack</span></li>
 
-    <li class="cell"> 
-    <i class="devicon-heroku-plain"></i>
+    <li className="cell"> 
+    <i className="devicon-heroku-plain"></i>
     <span>Heroku</span></li>
 
-    <li class="cell"> 
-    <i class="devicon-python-plain"></i>
+    <li className="cell"> 
+    <i className="devicon-python-plain"></i>
     <span>Python</span></li>
 
-    <li class="cell"> 
-    <i class="devicon-sass-original"></i>
+    <li className="cell"> 
+    <i className="devicon-sass-original"></i>
     <span>SASS</span>
     </li>
 

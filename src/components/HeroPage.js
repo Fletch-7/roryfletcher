@@ -5,11 +5,11 @@ class HeroPage extends React.Component {
   
   render() {
     return (
-      <section className="Section" id="Hero">
+      <section className="Section" id="hero">
         <div className="Hero">
         <h1 className="name">Hi, my name is Rory.</h1>
     <p className="name">
-      I'm a{' '}
+      I'm a{'  '}
     <Typical
     loop={Infinity}
     wrapper="b"
@@ -17,7 +17,7 @@ class HeroPage extends React.Component {
       'Full-Stack Developer',
       1000,
       'Foodie',
-      1000,
+      1000 ,
       'Runner',
       1000,
       'Linguist',
@@ -29,6 +29,6 @@ class HeroPage extends React.Component {
       </section>
     )
   }
-}
+  }
 
 export default HeroPage
