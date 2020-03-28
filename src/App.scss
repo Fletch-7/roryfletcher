@@ -1,12 +1,19 @@
 *{
   box-sizing: border-box;
   padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 
 .Section{
   height: 100vh;
   width: 100%;
+  .title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: darkblue;
+    font-weight: bolder;
+  }
 }
 /* Navabar */
 nav{
@@ -30,6 +37,9 @@ nav{
 }
 }
 //Software
+#Software{
+  height: 60vh;
+}
 .container-software li{
 max-width: 1100px;
 margin: 0 auto;
@@ -42,20 +52,12 @@ padding: 0 15px;
   justify-content: center;
   list-style: none;
   margin: 10px;
-  .software-icons i{
-    font-size: 28px;
-  }
 }
-.container-software li{
+.software-icons li{
   max-width: 1100px;
-  margin: 0 auto;
-  margin: 0 15px;
+  padding: 10px;
   display: flex;
-  justify-content: space-evenly;
-}
-.cell{
-  display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 5%;
   align-items: center;
@@ -63,7 +65,48 @@ padding: 0 15px;
   margin: 20px 5px 5px 5px;
   width: 100px;
   height: 100px;
-  font-size: 14px;
+  font-size: 20px;
   margin: 20px;
 }
+
+#Software > div > ul > li:nth-child(6) > i > img{
+  width: 20px;
+  height: 20px;
+}
+
+.cell{
+  display: flex;
+  flex-direction: column;
+}
+//About 
+.aboutme{
+  display: flex;
+  justify-content: center;
+}
+.bio{
+  width: 60vw;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+}
+//Skills
+
+.container-skills{
+  display: flex;
+  justify-content: center;
+  h2{
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: underline;
+    padding-bottom: 10px;
+  }
+  p{
+    font-size: 19px;
+  }
+}
+
+
+
+
 

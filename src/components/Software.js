@@ -28,7 +28,7 @@ render() {
     <span>NodeJS</span></li>
 
     <li className="cell"> 
-    <i className="Bulma"></i>
+    <i className="Bulma"><img src="https://versions.bulma.io/0.6.1/favicons/safari-pinned-tab.svg?v=201701041855" alt="bulma logo"/></i>
     <span>Bulma</span></li>
 
     <li className="cell"> 

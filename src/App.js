@@ -6,6 +6,9 @@ import 'bulma'
 import Navbar from './components/Navbar'
 import HeroPage from './components/HeroPage'
 import Software from './components/Software'
+import About from './components/About'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Navbar/>
       <HeroPage/>
       <Software/>
+      <About/>
+      <Skills/>
+      <Projects/>
 
     </main>
   );
