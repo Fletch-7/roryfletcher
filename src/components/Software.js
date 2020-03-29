@@ -40,7 +40,7 @@ render() {
     <span>MongoDB</span></li>
 
     <li className="cell"> 
-    <i className="fab fa-github-square"></i>
+    <i className="fab fa-github"></i>
     <span>GitHub</span></li>
 
     <li className="cell"> 
@@ -56,8 +56,33 @@ render() {
     <span>Python</span></li>
 
     <li className="cell"> 
+    <i className="devicon-django-plain"></i>
+    <span>Django</span>
+    </li>
+
+    <li className="cell"> 
     <i className="devicon-sass-original"></i>
     <span>SASS</span>
+    </li>
+
+    <li className="cell"> 
+    <i className="devicon-webpack-plain"></i>
+    <span>Webpack</span>
+    </li>
+
+    <li className="cell"> 
+    <i className="devicon-postgresql-plain"></i>
+    <span>PostgreSQL</span>
+    </li>
+
+    <li className="cell"> 
+    <i className="devicon-git-plain"></i>
+    <span>Git</span>
+    </li>
+
+    <li className="cell"> 
+    <i className="devicon-mocha-plain"></i>
+    <span>Mocha</span>
     </li>
 
 

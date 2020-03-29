@@ -10,11 +10,11 @@ render() {
         <a className="navbar-item"  href="#hero">Rory Fletcher </a>
       </div>
       <div className="navbar-end">
-        <a className="navbar-item " href="#About">about</a>
-        <a className="navbar-item " href="#skill">skills</a>
-        <a className="navbar-item"  href="#Projects">projects</a>
-        <a className="navbar-item"  href="#Experience">experience</a>
-        <a className="navbar-item"  href="#Contact">contact</a>
+        <a className="navbar-item " href="#about">about</a>
+        <a className="navbar-item " href="#skills">skills</a>
+        <a className="navbar-item"  href="#projects">projects</a>
+        <a className="navbar-item"  href="#experience">experience</a>
+        <a className="navbar-item"  href="#contact">contact</a>
         </div>
     </div>
     </nav>

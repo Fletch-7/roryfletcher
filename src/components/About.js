@@ -4,7 +4,7 @@ class About extends React.Component{
 
   render() {
     return(
-      <section className="Section" id="About">
+      <section className="Section" id="about">
       <div className="aboutme">
         <div className="bio">
           <h1 className="title">About Me</h1>
