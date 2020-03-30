@@ -2,26 +2,38 @@
   box-sizing: border-box;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
+}
 
+#projects{
+  height: 3100px;
 }
 
 .Section{
   height: 100vh;
   width: 100vw;
+  display: block;
   .title{
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     color: darkblue;
     font-weight: bolder;
   }
+
+  .subtitle{
+    text-decoration: underline;
+  }
 }
 /* Navabar */
 nav{
+  // position: sticky;
+  // top: 0;
+  // z-index: 1200;
 .navbar-item {
   color: white;
   font-weight: bolder;
   text-transform: uppercase; 
   font-family: 'Ubuntu', sans-serif;
+  
 }
 }
 
@@ -42,6 +54,7 @@ nav{
 #Software{
   height:80vh;
 }
+
 .container-software li{
 max-width: 1100px;
 margin: 0 auto;
@@ -53,7 +66,7 @@ padding: 0 15px;
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  margin: 10px;
+  margin: 20px;
 }
 .software-icons li{
   max-width: 1100px;
@@ -121,7 +134,6 @@ padding: 0 15px;
 }
 
 //Projects
-
 .container-info{
   display: flex;
   flex-direction: row;
@@ -146,7 +158,9 @@ padding: 0 15px;
   flex-direction: column; 
   flex-basis: 0;
   flex-grow: 1;
-  margin-right: 40px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  
 .title-small{
   display: flex;
   justify-content: center;
@@ -168,6 +182,11 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 }
+
+#small{
+  height: 25px;
+}
+
   
 .project-description{
   flex-basis: 0;
@@ -184,3 +203,35 @@ justify-content: space-evenly;
   width: 20px;
   height: 20px;
   }
+
+//Experience
+
+
+.container-experience{
+  display: flex;
+  justify-content: center;
+.roles{
+  width: 60vw;
+  text-align: justify;
+  font-size: 17px;
+}
+.time{
+  margin-bottom: 5px;
+  font-style: italic;
+}
+}
+
+//Footer
+#contact{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 350px;
+  background-color: white;
+}
+.email{
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 5%;
+}
+
+

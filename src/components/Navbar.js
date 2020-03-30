@@ -12,8 +12,8 @@ render() {
       <div className="navbar-end">
         <a className="navbar-item " href="#about">about</a>
         <a className="navbar-item " href="#skills">skills</a>
-        <a className="navbar-item"  href="#projects">projects</a>
         <a className="navbar-item"  href="#experience">experience</a>
+        <a className="navbar-item"  href="#projects">projects</a>
         <a className="navbar-item"  href="#contact">contact</a>
         </div>
     </div>

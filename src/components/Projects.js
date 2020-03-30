@@ -9,12 +9,13 @@ class Projects extends React.Component{
     return (
       <section className="Section" id="projects">
         <h1 className="title">Projects</h1>
-
+        <div className="projects">
         {/* Snake */}
       <div className="container-p">
+      <hr/>
         <div className="image">
         <img className="project-image" src={Project1} alt="snake_game"></img>
-        </div>
+      </div>
         <div className="container-info">
         <div className="project-info">
           <h1 className="title-small">Snake Game</h1>
@@ -31,11 +32,11 @@ class Projects extends React.Component{
         </div>
         </div>
       </div>
-
        {/* Hero API */}
       <div className="container-p">
+      <hr/>
         <div className="image">
-        <img className="project-image" src={Project2} alt="snake_game"></img>
+        <img className="project-image" src={Project2} alt="Hero_API"></img>
         </div>
         <div className="container-info">
         <div className="project-info">
@@ -54,16 +55,16 @@ class Projects extends React.Component{
         </div>
         </div>
       </div>
-
-             {/* Geocachr */}
+        {/* Geocachr */}
       <div className="container-p">
+      <hr/>
         <div className="image">
-        <img className="project-image" src={Project3} alt="snake_game"></img>
+        <img className="project-image" src={Project3} alt="Geocachr_website"></img>
         </div>
         <div className="container-info">
         <div className="project-info">
           <h1 className="title-small">Geocachr</h1>
-          <ul className="icons">
+          <ul className="icons" id="small">
           <li className="cell"> <i className="fab fa-js-square "></i></li>
           <li className="cell"> <i className="fab fa-html5 "></i></li>
           <li className="cell"><i className="fab fa-css3-alt "></i></li>
@@ -81,16 +82,16 @@ class Projects extends React.Component{
         </div>
         </div>
       </div>
-
-         {/* Pensive */}
+        {/* Pensive */}
         <div className="container-p">
+        <hr/>
         <div className="image">
-        <img className="project-image" src={Project4} alt="snake_game"></img>
+        <img className="project-image" src={Project4} alt="pensive_website"></img>
         </div>
         <div className="container-info">
         <div className="project-info">
           <h1 className="title-small">Pensive</h1>
-          <ul className="icons">
+          <ul className="icons" id="small">
           <li className="cell"> <i className="fab fa-js-square"></i></li>
           <li className="cell"> <i className="fab fa-html5"></i></li>
           <li className="cell"><i className="fab fa-css3-alt"></i></li>
@@ -107,6 +108,7 @@ class Projects extends React.Component{
           <p>My fourth and final project involved creating a blog platform using a mixture of Python, PostgreSQL and Django. The platform includes main features such as profiles, trending topics and articles created by software developers and coding enthusiasts. My role was using MongoDB, Python and PostgreSQL to create CRUD processes and authentication on the back end. I also worked on the JavaScript in React to improve the functionality on the front end.</p>
         </div>
         </div>
+      </div>
       </div>
       </section>
     )
