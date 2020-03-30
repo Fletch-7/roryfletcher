@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/roryfletcher/static/css/main.bc203878.chunk.css",
+    "main.js": "/roryfletcher/static/js/main.8c663c8d.chunk.js",
+    "main.js.map": "/roryfletcher/static/js/main.8c663c8d.chunk.js.map",
+    "runtime-main.js": "/roryfletcher/static/js/runtime-main.036dd4a4.js",
+    "runtime-main.js.map": "/roryfletcher/static/js/runtime-main.036dd4a4.js.map",
+    "static/css/2.49233dca.chunk.css": "/roryfletcher/static/css/2.49233dca.chunk.css",
+    "static/js/2.73bdd277.chunk.js": "/roryfletcher/static/js/2.73bdd277.chunk.js",
+    "static/js/2.73bdd277.chunk.js.map": "/roryfletcher/static/js/2.73bdd277.chunk.js.map",
+    "index.html": "/roryfletcher/index.html",
+    "precache-manifest.5e72b961354d19d4b694a1bd15e32b6d.js": "/roryfletcher/precache-manifest.5e72b961354d19d4b694a1bd15e32b6d.js",
+    "service-worker.js": "/roryfletcher/service-worker.js",
+    "static/css/2.49233dca.chunk.css.map": "/roryfletcher/static/css/2.49233dca.chunk.css.map",
+    "static/css/main.bc203878.chunk.css.map": "/roryfletcher/static/css/main.bc203878.chunk.css.map",
+    "static/js/2.73bdd277.chunk.js.LICENSE.txt": "/roryfletcher/static/js/2.73bdd277.chunk.js.LICENSE.txt",
+    "static/media/Geocachr.png": "/roryfletcher/static/media/Geocachr.ef1c2c1b.png",
+    "static/media/Hero_API.png": "/roryfletcher/static/media/Hero_API.486b18a5.png",
+    "static/media/Pensive.png": "/roryfletcher/static/media/Pensive.738d5861.png",
+    "static/media/Snake_Game.png": "/roryfletcher/static/media/Snake_Game.1a2e7cce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.036dd4a4.js",
+    "static/css/2.49233dca.chunk.css",
+    "static/js/2.73bdd277.chunk.js",
+    "static/css/main.bc203878.chunk.css",
+    "static/js/main.8c663c8d.chunk.js"
+  ]
+}
